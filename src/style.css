@@ -1,16 +1,31 @@
 @font-face {
     src: url("fonts/JetBrainsMono-Regular.ttf");
-    font-color: white;
     font-family: JB;
 }
 
 body{
     background-color: #00004d;
+
 }
 
 .dotfiles{
     font-size: 30px;
     line-height: 20px;
-    font-color: white;
+    text-align: center;
+    color: darkorange;
+    font-family: JB;
+}
+
+.dev{
+    font-size: 30px;
+    line-height: 20px;
+    color: darkorange;
+    font-family: JB;
+}
+
+.school{
+    font-size: 30px;
+    line-height: 20px;
+    color: darkorange;
     font-family: JB;
 }
