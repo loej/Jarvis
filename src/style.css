@@ -1,0 +1,16 @@
+@font-face {
+    src: url("fonts/JetBrainsMono-Regular.ttf");
+    font-color: white;
+    font-family: JB;
+}
+
+body{
+    background-color: #00004d;
+}
+
+.paragraph{
+    font-size:100px;
+    line-height: 20px;
+    font-color: white;
+    font-family: JB;
+}
