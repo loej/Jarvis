@@ -5,15 +5,22 @@
 
 body{
     background-color: #00004d;
+    font-family: JB;
+}
 
+div.bar{
+    width: 2px;
+    background-color: gray;
+    height: 100%;
+    float: left;
 }
 
 .dotfiles{
-    font-size: 30px;
+    font-size: 10px;
     line-height: 20px;
-    text-align: center;
     color: darkorange;
-    font-family: JB;
+    padding-left: 400px;
+    padding-top: 100px;
 }
 
 .dev{
@@ -24,6 +31,20 @@ body{
 }
 
 .school{
+    font-size: 30px;
+    line-height: 20px;
+    color: darkorange;
+    font-family: JB;
+}
+
+.entertainment{
+    font-size: 30px;
+    line-height: 20px;
+    color: darkorange;
+    font-family: JB;
+}
+
+.work{
     font-size: 30px;
     line-height: 20px;
     color: darkorange;
