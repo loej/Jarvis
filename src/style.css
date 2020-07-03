@@ -4,23 +4,27 @@
 }
 
 body{
-    background-color: #00004d;
+
+    background-color: #223843;
     font-family: JB;
 }
 
+/*
+Saving this for later.
 div.bar{
-    width: 2px;
-    background-color: gray;
-    height: 100%;
-    float: left;
+    width: 1px;
+    background-color: black;
+    height: 200%;
+    float: inside;
 }
+*/
 
 .dotfiles{
-    font-size: 10px;
+    font-size: 45px;
     line-height: 20px;
     color: darkorange;
     padding-left: 400px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .dev{
@@ -49,4 +53,28 @@ div.bar{
     line-height: 20px;
     color: darkorange;
     font-family: JB;
+}
+.typeanimation h1{
+    color: darkorange;
+    font-family: JB;
+    /* Makes sure the content does not show until the animation is done.*/
+    overflow: hidden;
+    /* Makes sure that there is a typewriter cursor*/
+    border-right: .15em solid lightblue;
+    /* Keeps the content in a single line  */
+    white-space: nowrap;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 4.0s steps(30, end),
+            blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+    from{width: 0}
+    to { width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: lightblue;}
 }
