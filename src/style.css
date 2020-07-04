@@ -1,12 +1,13 @@
+/* Welcome to ~/Jarvis!. A Simple startup page for chrome. The html/css/js files will be commented thoroughly. */
+
+/* Setting stylesheet wide font. */
 @font-face {
-    src: url("fonts/JetBrainsMono-Regular.ttf");
+    src: url("fonts/JetBrainsMono-Bold.ttf");
     font-family: JB;
 }
-
+/* Setting background color. */
 body{
-
     background-color: #223843;
-    font-family: JB;
 }
 
 /*
@@ -19,14 +20,7 @@ div.bar{
 }
 */
 
-.dotfiles{
-    font-size: 45px;
-    line-height: 20px;
-    color: darkorange;
-    padding-left: 400px;
-    padding-top: 50px;
-}
-
+/* .dev file customization. */
 .dev{
     font-size: 30px;
     line-height: 20px;
@@ -34,6 +28,7 @@ div.bar{
     font-family: JB;
 }
 
+/* .school file customization. */
 .school{
     font-size: 30px;
     line-height: 20px;
@@ -41,6 +36,7 @@ div.bar{
     font-family: JB;
 }
 
+/* .entertainment file customization. */
 .entertainment{
     font-size: 30px;
     line-height: 20px;
@@ -48,33 +44,41 @@ div.bar{
     font-family: JB;
 }
 
+/* .work file customization. */
 .work{
     font-size: 30px;
     line-height: 20px;
     color: darkorange;
     font-family: JB;
 }
-.typeanimation h1{
-    color: darkorange;
+
+/* .type file customization. */
+.type{
+    padding-left: 700px;
+    color: lightsalmon;
+    font-size: 30px;
     font-family: JB;
-    /* Makes sure the content does not show until the animation is done.*/
-    overflow: hidden;
-    /* Makes sure that there is a typewriter cursor*/
-    border-right: .15em solid lightblue;
-    /* Keeps the content in a single line  */
+    /* Makes sure that the animation stays in one specific line. */
     white-space: nowrap;
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation:
-            typing 4.0s steps(30, end),
-            blink-caret .5s step-end infinite;
-}
-@keyframes typing {
-    from{width: 0}
-    to { width: 100%}
+    /* Makes sure the content does not show until the animation is done. */
+    overflow: hidden;
+    /* Makes sure that there is a typewriter cursor. */
+    border-right: solid 2px;
 }
 
-@keyframes blink-caret {
-    from, to {border-color: transparent}
-    50% {border-color: lightblue;}
+/* .type animation details */
+.type {
+    /* .work file customization. */
+    animation:animated-text 4s steps(29,end) 1s 1 normal both,
+              animated-cursor  steps(29,end) infinite;
+}
+
+@keyframes animated-text {
+    from{width: 0}
+    to { width: 400px}
+}
+
+@keyframes animated-cursor {
+    from{border-right-color: lightblue;}
+    to{border-right-color: transparent;}
 }
