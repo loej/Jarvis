@@ -27,6 +27,7 @@ div.bar{
     line-height: 20px;
     color: darkorange;
     font-family: JB;
+    text-decoration: none;
 }
 
 /* .school file customization. */
@@ -70,7 +71,7 @@ div.bar{
 /* .type animation details */
 .type {
     /* .work file customization. */
-    animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animation: animated-text 3.5s steps(29, end) 1s 1 normal both,
     animated-cursor steps(29, end) infinite;
 }
 

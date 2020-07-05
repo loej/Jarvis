@@ -6,12 +6,14 @@
     <!-- The title. -->
     <title>~/Jarvis</title>
     <!-- Linking css stylesheet. -->
-    <link rel="stylesheet" href="style.css">
+    <link id="myLink" rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- Script File. -->
+<script src="page.js"></script>
 <!-- Paragraph inserts for every ~/dotfile type. -->
 <p class="type">[ joel @ manjaro ~] $</p>
-<p class="dev">.dev</p>
+<p id="dev" class="dev" onclick="linkFunction()">.dev</p>
 <p class="school">.school</p>
 <p class="media">.media</p>
 <p class="work">.work</p>
