@@ -5,8 +5,9 @@
     src: url("fonts/JetBrainsMono-Bold.ttf");
     font-family: JB;
 }
+
 /* Setting background color. */
-body{
+body {
     background-color: #223843;
 }
 
@@ -21,7 +22,7 @@ div.bar{
 */
 
 /* .dev file customization. */
-.dev{
+.dev {
     font-size: 30px;
     line-height: 20px;
     color: darkorange;
@@ -29,7 +30,7 @@ div.bar{
 }
 
 /* .school file customization. */
-.school{
+.school {
     font-size: 30px;
     line-height: 20px;
     color: darkorange;
@@ -37,7 +38,7 @@ div.bar{
 }
 
 /* .entertainment file customization. */
-.media{
+.media {
     font-size: 30px;
     line-height: 20px;
     color: darkorange;
@@ -45,7 +46,7 @@ div.bar{
 }
 
 /* .work file customization. */
-.work{
+.work {
     font-size: 30px;
     line-height: 20px;
     color: darkorange;
@@ -53,7 +54,7 @@ div.bar{
 }
 
 /* .type file customization. */
-.type{
+.type {
     padding-left: 700px;
     color: lightsalmon;
     font-size: 30px;
@@ -69,16 +70,24 @@ div.bar{
 /* .type animation details */
 .type {
     /* .work file customization. */
-    animation:animated-text 4s steps(29,end) 1s 1 normal both,
-              animated-cursor  steps(29,end) infinite;
+    animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor steps(29, end) infinite;
 }
 
 @keyframes animated-text {
-    from{width: 0}
-    to { width: 400px}
+    from {
+        width: 0
+    }
+    to {
+        width: 400px
+    }
 }
 
 @keyframes animated-cursor {
-    from{border-right-color: lightblue;}
-    to{border-right-color: transparent;}
+    from {
+        border-right-color: lightblue;
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
