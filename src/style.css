@@ -8,7 +8,7 @@
 
 /* Setting background color. */
 body {
-    background-color: #223843;
+    background-color: #141726;
 }
 
 /*
@@ -25,7 +25,7 @@ div.bar{
 .dev {
     font-size: 30px;
     line-height: 20px;
-    color: darkorange;
+    color: #ea5455;
     font-family: JB;
     text-decoration: none;
 }
@@ -34,7 +34,7 @@ div.bar{
 .school {
     font-size: 30px;
     line-height: 20px;
-    color: darkorange;
+    color: #ea5455;
     font-family: JB;
 }
 
@@ -42,7 +42,7 @@ div.bar{
 .media {
     font-size: 30px;
     line-height: 20px;
-    color: darkorange;
+    color: #ea5455;
     font-family: JB;
 }
 
@@ -50,28 +50,36 @@ div.bar{
 .work {
     font-size: 30px;
     line-height: 20px;
-    color: darkorange;
+    color: #ea5455;
     font-family: JB;
 }
 
 /* .type file customization. */
 .type {
-    padding-left: 700px;
-    color: lightsalmon;
-    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 650px;
+    color: #F23D4C;
+    font-size: 22px;
     font-family: JB;
     /* Makes sure that the animation stays in one specific line. */
     white-space: nowrap;
     /* Makes sure the content does not show until the animation is done. */
     overflow: hidden;
     /* Makes sure that there is a typewriter cursor. */
-    border-right: solid 2px;
+    border-right: solid 1px rgb(255, 255, 255);
+
+}
+
+/* Setting a new color palette for the main prompt*/
+.grayText {
+    color: #BFB8AA;
+    font-family: JB;
 }
 
 /* .type animation details */
 .type {
     /* .work file customization. */
-    animation: animated-text 3.5s steps(29, end) 1s 1 normal both,
+    animation: animated-text 3s steps(29, end) 1s 1 normal both,
     animated-cursor steps(29, end) infinite;
 }
 
@@ -80,15 +88,7 @@ div.bar{
         width: 0
     }
     to {
-        width: 400px
+        width: 315px
     }
 }
 
-@keyframes animated-cursor {
-    from {
-        border-right-color: lightblue;
-    }
-    to {
-        border-right-color: transparent;
-    }
-}

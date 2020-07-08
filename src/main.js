@@ -2,7 +2,7 @@
 
 /* Allows .dev to link to youtube (for now). */
 function linkFunction() {
-    var search = 'dev'
-    var result = search.link('https://www.youtube.com/')
+    let search = 'dev'
+    let result = search.link('https://www.youtube.com/')
     document.getElementById('dev').innerHTML = result
 }
