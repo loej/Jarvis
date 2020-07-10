@@ -15,18 +15,18 @@
     <!-- Terminal Prompt. This is what is being animated and has two colors. -->
     <p class="type">
         <!-- Configuration to add different colors to terminal prompt. -->
-        <span class="grayText">[</span>joel
-        <span class="grayText">@</span> manjaro ~<span class="whiteText"><span class="grayText">] </span></span>
+        <span class="grayText">[</span>joel<span class="grayText">@</span>manjaro ~<span class="whiteText"><span class="grayText">] </span></span>
         <span class="grayText">$</span>
         <span class="grayText"> tree -h</span>
     </p>
     <!-- All of the listed 'directories'.  -->
-    <div class="Tree" id="treeText" style="display: none">
-        <ul>
+    <div id="treeText" style="display: none">
+        <h1 class="dot">.</h1>
+        <ul class="Tree">
             <li id="dev" class="dev" onclick="linkFunction()">dev</li>
             <li class="school">school</li>
-            <li class="media">media</li>
             <li class="work">work</li>
+            <li class="media">media</li>
         </ul>
     </div>
     </body>

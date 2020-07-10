@@ -3,22 +3,27 @@
 /* Setting stylesheet wide font. */
 @font-face {
     src: url("fonts/JetBrainsMono-Bold.ttf");
-    font-family: JB;
 }
 
 /* Setting background color. */
 body {
     background-color: black;
     line-height: 30px;
-    font-family: JB;
+    font-family: "JetBrains Mono Medium", serif;
 
 }
 
 main {
     margin: 0px;
     padding-top: 150px;
-    padding-left: 800px;
+    padding-left: 680px;
     font-size: 22px;
+}
+
+.dot {
+    color: #ffac41;
+    font-size: 30px;
+
 }
 
 /* .dev file customization. */
@@ -82,7 +87,8 @@ main {
         width: 0
     }
     to {
-        width: 375px
+        width: 350px
     }
 }
+
 
