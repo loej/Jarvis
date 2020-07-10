@@ -9,17 +9,12 @@
 /* Setting background color. */
 body {
     background-color: #141726;
+
 }
 
-/*
-Saving this for later.
-div.bar{
-    width: 1px;
-    background-color: black;
-    height: 200%;
-    float: inside;
+main{
+    margin: 0;
 }
-*/
 
 /* .dev file customization. */
 .dev {
