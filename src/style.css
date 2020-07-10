@@ -8,53 +8,53 @@
 
 /* Setting background color. */
 body {
-    background-color: #141726;
+    background-color: black;
+    line-height: 22px;
 
 }
 
-main{
-    margin: 0;
-    padding: 100px;
+main {
+    margin: 0px;
+    padding-top: 150px;
+    padding-left: 800px;
+    font-size: 22px;
 }
 
 /* .dev file customization. */
 .dev {
-    font-size: 30px;
-    line-height: 20px;
-    color: #ea5455;
+    font-size: 22px;
+    color: #ffac41;
     font-family: JB;
     text-decoration: none;
 }
 
 /* .school file customization. */
 .school {
-    font-size: 30px;
-    line-height: 20px;
-    color: #ea5455;
+    font-size: 22px;
+    color: #ffac41;
     font-family: JB;
 }
 
 /* .entertainment file customization. */
 .media {
-    font-size: 30px;
-    line-height: 20px;
-    color: #ea5455;
+    font-size: 22px;
+
+    color: #ffac41;
     font-family: JB;
 }
 
 /* .work file customization. */
 .work {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 20px;
-    color: #ea5455;
+    color: #ffac41;
     font-family: JB;
 }
 
 /* .type file customization. */
 .type {
-    padding-top: 150px;
-    padding-left: 650px;
-    color: #F23D4C;
+    color: #ffac41;
+    padding-left: 0px;
     font-size: 22px;
     font-family: JB;
     /* Makes sure that the animation stays in one specific line. */
@@ -62,7 +62,9 @@ main{
     /* Makes sure the content does not show until the animation is done. */
     overflow: hidden;
     /* Makes sure that there is a typewriter cursor. */
-    border-right: solid 1px rgb(255, 255, 255);
+    /* To make the height of the right border the same height as the
+    text manipulate the top padding in <main> */
+    border-right: solid 2px rgb(255, 255, 255);
 
 }
 
@@ -84,7 +86,7 @@ main{
         width: 0
     }
     to {
-        width: 315px
+        width: 375px
     }
 }
 
