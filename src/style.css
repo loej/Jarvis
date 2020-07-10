@@ -9,7 +9,8 @@
 /* Setting background color. */
 body {
     background-color: black;
-    line-height: 22px;
+    line-height: 30px;
+    font-family: JB;
 
 }
 
@@ -24,31 +25,27 @@ main {
 .dev {
     font-size: 22px;
     color: #ffac41;
-    font-family: JB;
-    text-decoration: none;
 }
 
 /* .school file customization. */
 .school {
     font-size: 22px;
     color: #ffac41;
-    font-family: JB;
+
 }
 
 /* .entertainment file customization. */
 .media {
     font-size: 22px;
-
     color: #ffac41;
-    font-family: JB;
+
 }
 
 /* .work file customization. */
 .work {
     font-size: 22px;
-    line-height: 20px;
     color: #ffac41;
-    font-family: JB;
+
 }
 
 /* .type file customization. */
@@ -56,7 +53,6 @@ main {
     color: #ffac41;
     padding-left: 0px;
     font-size: 22px;
-    font-family: JB;
     /* Makes sure that the animation stays in one specific line. */
     white-space: nowrap;
     /* Makes sure the content does not show until the animation is done. */
@@ -68,18 +64,18 @@ main {
 
 }
 
-/* Setting a new color palette for the main prompt*/
-.grayText {
-    color: #BFB8AA;
-    font-family: JB;
-}
-
 /* .type animation details */
 .type {
     /* .work file customization. */
     animation: animated-text 3s steps(29, end) 1s 1 normal both,
     animated-cursor steps(29, end) infinite;
 }
+
+/* Setting a new color palette for the main prompt*/
+.grayText {
+    color: #BFB8AA;
+}
+
 
 @keyframes animated-text {
     from {

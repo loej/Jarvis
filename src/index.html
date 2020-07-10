@@ -12,7 +12,7 @@
     <body>
     <!-- Script File. -->
     <script src="main.js"></script>
-    <!-- Paragraph inserts for every ~/dotfile type. -->
+    <!-- Terminal Prompt. This is what is being animated and has two colors. -->
     <p class="type">
         <!-- Configuration to add different colors to terminal prompt. -->
         <span class="grayText">[</span>joel
@@ -20,10 +20,15 @@
         <span class="grayText">$</span>
         <span class="grayText"> tree -h</span>
     </p>
-    <p id="dev" class="dev" onclick="linkFunction()">dev</p>
-    <p class="school">school</p>
-    <p class="media">media</p>
-    <p class="work">work</p>
+    <!-- All of the listed 'directories'.  -->
+    <div class="Tree" id="treeText" style="display: none">
+        <ul>
+            <li id="dev" class="dev" onclick="linkFunction()">dev</li>
+            <li class="school">school</li>
+            <li class="media">media</li>
+            <li class="work">work</li>
+        </ul>
+    </div>
     </body>
 </main>
 </html>
