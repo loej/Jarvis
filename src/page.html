@@ -6,9 +6,12 @@
     <title>~/jarvis</title>
     <!-- Linking CSS sheet -->
     <link id="myLink" rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/rocket.ico" type="images/rocket.ico">
     <script src="main.js"></script>
 </head>
 <body>
+    <div class="all">
+    <!-- Typing animation  -->
     <p class="type">
         <!-- Configuration to add different colors to terminal prompt. -->
         <span class="grayText">[</span>joel<span class="grayText">@</span
@@ -19,14 +22,69 @@
         <span class="grayText"> tree -h</span>
     </p>
 
-    <div id="treeText" style="display: none">
+    <!-- <div id="treeText" style="display: none">
         <h1 class="dot">.</h1>
         <ul class="Tree">
-          <li id="dev" class="dev" onclick="linkFunction()">dev</li>
-          <li class="school">school</li>
-          <li class="work">work</li>
-          <li class="media">media</li>
+        <div class = "devDropDown">
+        <li  class="dev"><a href="https://github.com/loej" style="text-decoration : none; color : #ffac41;" target="_blank" > dev </a></li>
+        </div>
+        <li class="school">school</li>
+        <li class="work">work</li>
+        <li class="media">media</li>
         </ul>
+    </div> -->
+    <div id="treeText" style="display: none;"> 
+        <p class="treeRoot">.</p>
+        <ul class="treeRoot"> 
+            <l1>dev 
+                <ul> 
+                    <li>Github
+                    <li>Geeks4Geeks
+                    <li>Youtube
+                    </li> 
+                    </li>    
+                    </li>
+                </ul>
+            <l1>school 
+                <ul>
+                    <li>Rutgers 
+                    <li>Canvas
+                    <li>Sakai
+                    <li>WebReg
+                    </li>
+                    </li>     
+                    </li>
+                    </li>
+                </ul>
+            <l1>media
+                <ul>
+                    <li>Reddit
+                    <li>Youtube
+                    <li>Discord
+                    <li>Netflix
+                    <li>Example
+                    </li>
+                    </li>
+                    </li>
+                    </li>
+                </ul>
+            <l1>work 
+                <ul>
+                    <li>Example
+                    <li>Example
+                    <li>Example
+                    </li>
+                    </li>
+                    </li>
+                </ul>
+            </l1> 
+            </li>
+            </l1>
+            </l1>
+        </ul>
+    </div>
+
+
     </div>
 </body>
 </html>

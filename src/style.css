@@ -1,19 +1,19 @@
 /* Welcome to ~/Jarvis!. A Simple startup page for chrome. The html/css/js files will be commented thoroughly. */
-
-
+@font-face{
+    font-family: mainfont;
+    src: url(fonts/JetBrainsMono-Medium.ttf)
+}
 /* Setting background color. */
 body {
     background-color: black;
     line-height: 30px;
-    font-family: "JetBrains Mono Medium", serif;
+    font-family: "mainfont";
 
 }
 
-main {
-    margin: 0px;
-    padding-top: 150px;
-    padding-left: 680px;
-    font-size: 22px;
+.all{
+    padding-left: 550px;
+    /* padding-top: 80px; */
 }
 
 .dot {
@@ -21,34 +21,47 @@ main {
     font-size: 30px;
 
 }
-
-/* .dev file customization. */
-.dev {
-    font-size: 22px;
-    color: #ffac41;
+.treeText{
+    padding-left: 20000px;
 }
 
-/* .school file customization. */
-.school {
-    font-size: 22px;
+p.treeRoot,
+ul.treeRoot,
+ul.treeRoot ul{
     color: #ffac41;
-
+    padding-left: 10000px;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* .entertainment file customization. */
-.media {
-    font-size: 22px;
-    color: #ffac41;
-
+ul.treeRoot ul{
+    margin-left: 1.0em;
 }
 
-/* .work file customization. */
-.work {
-    font-size: 22px;
-    color: #ffac41;
-
+ul.treeRoot li{
+    margin-left: 0.35em;
+    border-left: thin solid #ffac41;
 }
 
+ul.treeRoot li:last-child {
+    border-left: none;
+  }
+
+  ul.treeRoot li:before {
+    width: 0.9em;
+    height: 0.6em;
+    margin-right: 0.1em;
+    vertical-align: top;
+    border-bottom: thin solid #ffac41;
+    content: "";
+    display: inline-block;
+  }
+
+  ul.treeRoot li:last-child:before {
+    border-left: thin solid #ffac41;
+  } 
 /* .type file customization. */
 .type {
     color: #ffac41;
