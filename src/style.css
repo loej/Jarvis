@@ -1,102 +1,115 @@
 /* Welcome to ~/Jarvis!. A Simple startup page for chrome. The html/css/js files will be commented thoroughly. */
-@font-face{
-    font-family: mainfont;
-    src: url(fonts/JetBrainsMono-Medium.ttf)
+@font-face {
+  font-family: mainfont;
+  src: url(fonts/JetBrainsMono-Medium.ttf);
 }
 /* Setting background color. */
 body {
-    background-color: black;
-    line-height: 30px;
-    font-family: "mainfont";
-
+  background-color: black;
+  line-height: 30px;
+  font-family: "mainfont";
 }
 
-.all{
-    padding-left: 550px;
-    /* padding-top: 80px; */
+.all {
+  padding-left: 550px;
+  /* padding-top: 80px; */
 }
-.treeText{
-    padding-left: 20000px;
+.treeText {
+  padding-left: 20000px;
 }
 
 p.treeRoot,
 ul.treeRoot,
-ul.treeRoot ul{
-    color: #ffac41;
-    font-size: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+ul.treeRoot ul {
+  color: #ffac41;
+  font-size: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-ul.treeRoot ul{
-    margin-left: 1.0em;
+ul.treeRoot ul {
+  margin-left: 1em;
 }
 
-ul.treeRoot li{
-    margin-left: 0.35em;
-    border-left: thin solid #ffac41;
+ul.treeRoot li {
+  margin-left: 0.35em;
+  border-left: thin solid #ffac41;
 }
 
 ul.treeRoot li:last-child {
-    border-left: none;
-  }
+  border-left: none;
+}
 
-  ul.treeRoot li:before {
-    width: 0.9em;
-    height: 0.6em;
-    margin-right: 0.1em;
-    vertical-align: top;
-    border-bottom: thin solid #ffac41;
-    content: "";
-    display: inline-block;
-  }
+ul.treeRoot li:before {
+  width: 0.9em;
+  height: 0.6em;
+  margin-right: 0.1em;
+  vertical-align: top;
+  border-bottom: thin solid #ffac41;
+  content: "";
+  display: inline-block;
+}
 
-  ul.treeRoot li:last-child:before {
-    border-left: thin solid #ffac41;
-  } 
+ul.treeRoot li:last-child:before {
+  border-left: thin solid #ffac41;
+}
+
+a:hover {
+  color: #ffac41;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffac41;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 a:visited {
-    color: #ffac41;
-    background-color: transparent;
-    text-decoration: none;
+  color: #ffac41;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffac41;
+  background-color: transparent;
+  text-decoration: none;
 }
 /* .type file customization. */
 .type {
-    color: #ffac41;
-    padding-left: 0px;
-    font-size: 22px;
-    /* Makes sure that the animation stays in one specific line. */
-    white-space: nowrap;
-    /* Makes sure the content does not show until the animation is done. */
-    overflow: hidden;
-    /* Makes sure that there is a typewriter cursor. */
-    /* To make the height of the right border the same height as the
+  color: #ffac41;
+  padding-left: 0px;
+  font-size: 22px;
+  /* Makes sure that the animation stays in one specific line. */
+  white-space: nowrap;
+  /* Makes sure the content does not show until the animation is done. */
+  overflow: hidden;
+  /* Makes sure that there is a typewriter cursor. */
+  /* To make the height of the right border the same height as the
     text manipulate the top padding in <main> */
-    border-right: solid 2px rgb(255, 255, 255);
-
+  border-right: solid 2px rgb(255, 255, 255);
 }
 
 /* .type animation details */
 .type {
-    /* .work file customization. */
-    animation: animated-text 3s steps(29, end) 1s 1 normal both,
+  /* .work file customization. */
+  animation: animated-text 3s steps(29, end) 1s 1 normal both,
     animated-cursor steps(29, end) infinite;
 }
 
 /* Setting a new color palette for the main prompt*/
 .grayText {
-    color: #BFB8AA;
+  color: #bfb8aa;
 }
-
 
 @keyframes animated-text {
-    from {
-        width: 0
-    }
-    to {
-        width: 350px
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: 350px;
+  }
 }
-
-
