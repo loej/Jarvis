@@ -15,12 +15,6 @@ body {
     padding-left: 550px;
     /* padding-top: 80px; */
 }
-
-.dot {
-    color: #ffac41;
-    font-size: 30px;
-
-}
 .treeText{
     padding-left: 20000px;
 }
@@ -61,6 +55,12 @@ ul.treeRoot li:last-child {
   ul.treeRoot li:last-child:before {
     border-left: thin solid #ffac41;
   } 
+
+  a:visited {
+    color: #ffac41;
+    background-color: transparent;
+    text-decoration: none;
+  }
 /* .type file customization. */
 .type {
     color: #ffac41;
