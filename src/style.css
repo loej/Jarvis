@@ -56,11 +56,11 @@ ul.treeRoot li:last-child {
     border-left: thin solid #ffac41;
   } 
 
-  a:visited {
+a:visited {
     color: #ffac41;
     background-color: transparent;
     text-decoration: none;
-  }
+}
 /* .type file customization. */
 .type {
     color: #ffac41;
