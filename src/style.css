@@ -130,18 +130,7 @@ a:link {
   border-right: solid 2px rgb(255, 255, 255);
 }
 
-/* .type animation details */
-.secondType {
-  /* .work file customization. */
-  animation: animated-textSecond 3s steps(29, end) 1s 1 normal both,
-    animated-cursor steps(29, end) infinite;
-}
-
-@keyframes animated-textSecond {
-  from {
-    width: 0;
-  }
-  to {
-    width: 305px;
-  }
+.gettingSearch{
+  color:#ff7844;
+  font-size: 20px;
 }
