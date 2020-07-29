@@ -1,11 +1,19 @@
-<h1 align="center"> $ tree -a 🌳 </h1>
+<h1 align="center"> $ tree -a  🚀</h1>
 
- Jarvis is a simple startup page that mimics the tree command. This startup page links to my most used websites. Refer to my [dotfiles](https://github.com/loej/dotfiles) for my implementation. 
 
-### Preview 
+ Jarvis is a simple startup page that mi mics the tree command. This startup page links to my most used websites. Refer to my [dotfiles](https://github.com/loej/dotfiles) for my implementation. 
 
-### To do
-+ [ ] Choose final color palette
+## Preview  
+
+<div align="center">
+  <a>
+    <img src="src/images/palette.png" width="200">
+  </a>
+</div>
+
+
+## To do
++ [X] Choose final color palette
 + [ ] Implement interactive web search
 + [ ] Complete left tree side 
 

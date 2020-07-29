@@ -5,7 +5,7 @@
 }
 /* Setting background color. */
 body {
-  background-color: #300A24;
+  background-color: black;
   line-height: 30px;
   font-family: "mainfont";
 }
@@ -21,7 +21,7 @@ body {
 p.treeRoot,
 ul.treeRoot,
 ul.treeRoot ul {
-  color: #d65a31;
+  color: #FEF9EF;
   font-size: 20px;
   list-style: none;
   margin: 0;
@@ -80,7 +80,7 @@ a:link {
 }
 /* .type file customization. */
 .type {
-  color: #d65a31;
+  color: #ff7844;
   padding-left: 0px;
   font-size: 22px;
   /* Makes sure that the animation stays in one specific line. */
