@@ -6,20 +6,14 @@
 /* Setting background color. */
 body {
   background-color: black;
-  line-height: 30px;
+  line-height: 20px;
   font-family: "mainfont";
 }
 
-input{
-  border: none;
-  width: 20%%;
-  background-color: black;
-  color: white;
-  /* text-emphasis-color: white; */
-}
 
 .all {
   padding-left: 550px;
+  padding-top: 100px;
   /* padding-top: 80px; */
 }
 .treeText {
@@ -90,7 +84,7 @@ a:link {
 .type {
   color: #ff7844;
   padding-left: 0px;
-  font-size: 22px;
+  font-size: 20px;
   /* Makes sure that the animation stays in one specific line. */
   white-space: nowrap;
   /* Makes sure the content does not show until the animation is done. */
@@ -118,6 +112,36 @@ a:link {
     width: 0;
   }
   to {
-    width: 350px;
+    width: 320px;
+  }
+}
+
+.secondType{
+  color: #ff7844;
+  padding-left: 0px;
+  font-size: 20px;
+  /* Makes sure that the animation stays in one specific line. */
+  white-space: nowrap;
+  /* Makes sure the content does not show until the animation is done. */
+  overflow: hidden;
+  /* Makes sure that there is a typewriter cursor. */
+  /* To make the height of the right border the same height as the
+    text manipulate the top padding in <main> */
+  border-right: solid 2px rgb(255, 255, 255);
+}
+
+/* .type animation details */
+.secondType {
+  /* .work file customization. */
+  animation: animated-textSecond 3s steps(29, end) 1s 1 normal both,
+    animated-cursor steps(29, end) infinite;
+}
+
+@keyframes animated-textSecond {
+  from {
+    width: 0;
+  }
+  to {
+    width: 305px;
   }
 }

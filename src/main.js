@@ -4,6 +4,7 @@ function showTree() {
     /* Value is inline text by default. */
 
     document.getElementById('treeText').style.display = ''
+    document.getElementById('secondPrompt').style.display = ''
 }
 
 setTimeout(showTree, 4100)
