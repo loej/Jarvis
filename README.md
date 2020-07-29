@@ -16,7 +16,6 @@
 + [X] Choose final color palette
 + [X] Complete left tree side 
 + [ ] Implement interactive web search
-+ [ ] Implement second interactive terminal command
 
 
 

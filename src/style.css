@@ -127,10 +127,29 @@ a:link {
   /* Makes sure that there is a typewriter cursor. */
   /* To make the height of the right border the same height as the
     text manipulate the top padding in <main> */
-  border-right: solid 2px rgb(255, 255, 255);
+  border-right: solid 0px rgb(255, 255, 255);
 }
 
 .gettingSearch{
   color:#ff7844;
   font-size: 20px;
 }
+
+input {
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  background-color: black;
+  color: white;
+  font: 1px;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+/* Makes input box 'x' dissapear */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
