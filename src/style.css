@@ -140,14 +140,17 @@ input {
   border-right-style: none;
   border-left-style: none;
   border-bottom-style: none;
+  
   background-color: black;
   color: white;
-  font: 1px;
+  font-size: 18px;
+  font-family: "mainfont";
 }
 
-.no-outline:focus {
+textarea:focus, input:focus{
   outline: none;
 }
+
 /* Makes input box 'x' dissapear */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
