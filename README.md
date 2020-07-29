@@ -15,6 +15,6 @@
 ## To do
 + [X] Choose final color palette
 + [ ] Implement interactive web search
-+ [ ] Complete left tree side 
++ [X] Complete left tree side 
 
 
