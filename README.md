@@ -14,7 +14,9 @@
 
 ## To do
 + [X] Choose final color palette
-+ [ ] Implement interactive web search
 + [X] Complete left tree side 
++ [ ] Implement interactive web search
++ [ ] Implement text commands in terminal 
+
 
 
