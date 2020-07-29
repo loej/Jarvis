@@ -1,17 +1,20 @@
+<!-- Welcome to ~/Jarvis!. A Simple startup page for chrome. The html/css/js files will be commented thoroughly.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>~/</title>
-    <!-- Linking CSS sheet -->
+    <!-- Linking CSS sheet. -->
     <link id="myLink" rel="stylesheet" href="style.css">
+    <!-- Linking rocket icon. -->
     <link rel="icon" href="images/rocket.ico" type="images/rocket.ico">
+    <!-- Linking js file. -->
     <script src="main.js"></script>
 </head>
 <body>
     <div class="all">
-    <!-- Typing animation  -->
+    <!-- Terminal name and host.-->
     <p class="type">
         <!-- Configuration to add different colors to terminal prompt. -->
         <span class="grayText">[</span>joel<span class="grayText">@</span
@@ -21,12 +24,13 @@
         <span class="grayText">$</span>
         <span class="grayText"> tree -a </span>
     </p>
-
+    <!-- Links to other pages. -->
     <div id="treeText" style="display: none;"> 
         <p class="treeRoot"><strong>.</strong></p>
         <ul class="treeRoot"> 
             <li>dev 
                 <ul> 
+                    <!-- Each list is in a list, the tree is created in style.css -->
                     <li><a href="https://github.com/loej" border=0 style="border:0; text-decoration:none; outline:none" target="_blank" >Github</a>
                     <li><a href="https://leetcode.com/" border=0 style="border:0; text-decoration:none; outline:none" target="_blank" >LeetCode</a>
                     <li><a href="https://www.geeksforgeeks.org/" border=0 style="border:0; text-decoration:none; outline:none" target="_blank" >Geeks4Geeks</a>
@@ -38,6 +42,7 @@
                 </ul>
             <li>school 
                 <ul>
+                    <!-- Each link is updated to have no decorations and open a new tab ocne opened. -->
                     <li><a href="https://www.my.rutgers.edu/" border=0 style="border:0; text-decoration:none; outline:none" target="_blank" >Rutgers  </a>
                     <li><a href="https://www.canvas.rutgers.edu/" border=0 style="border:0; text-decoration:none; outline:none" target="_blank" >Canvas</a>
                     <li><a href="https://www.sakai.rutgers.edu/" border=0 style="border:0; text-decoration:none; outline:none" target="_blank" >Sakai</a>
@@ -75,6 +80,7 @@
             </l1>
             </l1>
         </ul>
+        <!-- The second terminal prompt that open the search for Google. -->
         <div id="secondPrompt"  style="display: none;"> 
             <p class="secondType">
                 <!-- Configuration to add different colors to terminal prompt. -->
@@ -83,7 +89,7 @@
                   ><span class="grayText">] </span></span>
                 <span class="grayText">$</span>
                 <span class="grayText"> google</span>
-        
+                <!-- This prompt only appears after the function is called in main.js -->
                 <div id="secondPrompt" class="gettingSearch">
                     <form action="https://google.com/search" target="_blank" type="GET">
                         <div>

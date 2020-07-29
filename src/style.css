@@ -1,25 +1,30 @@
 /* Welcome to ~/Jarvis!. A Simple startup page for chrome. The html/css/js files will be commented thoroughly. */
+
+/* Saves the font being used from src/fonts. */
 @font-face {
   font-family: mainfont;
   src: url(fonts/JetBrainsMono-Medium.ttf);
 }
-/* Setting background color. */
+
+/* Sets the main body style.*/
 body {
   background-color: black;
   line-height: 20px;
   font-family: "mainfont";
 }
 
-
+/* Class set to add padding to the main div 'all'. */
 .all {
   padding-left: 550px;
   padding-top: 100px;
-  /* padding-top: 80px; */
 }
+
+/* Sets the padding for the tree structure. */
 .treeText {
   padding-left: 20000px;
 }
 
+/* Defines the color, font size, and list style. */
 p.treeRoot,
 ul.treeRoot,
 ul.treeRoot ul {
@@ -30,15 +35,18 @@ ul.treeRoot ul {
   padding: 0;
 }
 
+ /* Defines the size of the left tree side. */
 ul.treeRoot ul {
   margin-left: 1em;
 }
 
+/* Defines the size of the tree root. */
 ul.treeRoot li {
   margin-left: 0.35em;
   border-left: thin solid #C1CFDA;
 }
 
+/* Defines the size of the tree child. */
 ul.treeRoot li:last-child {
   border-left: none;
 }
@@ -57,29 +65,34 @@ ul.treeRoot li:last-child:before {
   border-left: thin solid #C1CFDA;
 }
 
+/* The methods below decorate the links to remove all other decorations. */
 a:hover {
   color: #ff7844;
   background-color: transparent;
   text-decoration: none;
 }
 
+/* The methods below decorate the links to remove all other decorations. */
 a:active {
   color: #ff7844;
   background-color: transparent;
   text-decoration: none;
 }
 
+/* The methods below decorate the links to remove all other decorations. */
 a:visited {
   color: #ff7844;
   background-color: transparent;
   text-decoration: none;
 }
 
+/* The methods below decorate the links to remove all other decorations. */
 a:link {
   color: #ff7844;
   background-color: transparent;
   text-decoration: none;
 }
+
 /* .type file customization. */
 .type {
   color: #ff7844;
@@ -107,6 +120,7 @@ a:link {
   color: #ebecf1;
 }
 
+/* This is where the animation starts and ends for the text.  */
 @keyframes animated-text {
   from {
     width: 0;
@@ -116,6 +130,7 @@ a:link {
   }
 }
 
+/* This is the second decoration for the google prompt. */
 .secondType{
   color: #ff7844;
   padding-left: 0px;
@@ -130,11 +145,13 @@ a:link {
   border-right: solid 0px rgb(255, 255, 255);
 }
 
+/* This decorates the input search. */
 .gettingSearch{
   color:#ff7844;
   font-size: 20px;
 }
 
+/* Decorates and removes decorations from the search box. */
 input {
   border-top-style: none;
   border-right-style: none;
@@ -147,11 +164,12 @@ input {
   font-family: "mainfont";
 }
 
+/* The focus of the search box is eliminated. */
 textarea:focus, input:focus{
   outline: none;
 }
 
-/* Makes input box 'x' dissapear */
+/* Makes input box 'x' dissapear. */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,

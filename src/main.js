@@ -1,10 +1,12 @@
 /* Welcome to ~/Jarvis!. A Simple startup page for chrome. The html/css/js files will be commented thoroughly. */
 
+/* Functions that sets a timeout for both prompts to be displayed. */
 function showTree() {
-    /* Value is inline text by default. */
+    
 
     document.getElementById('treeText').style.display = ''
 }
+
 function showPrompt() {
     document.getElementById('secondPrompt').style.display = ''
 }
