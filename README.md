@@ -11,8 +11,7 @@
     <img src="docs/images/palette.png" width="600">
   </a>
 </div>
-
-
+ 
 ## To do
 + [X] Choose final color palette
 + [X] Complete left tree side 
