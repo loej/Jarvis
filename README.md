@@ -1,7 +1,7 @@
 <h1 align="center"> $ tree -a  🚀</h1>
 
 
- Jarvis is a simple startup page that mimics the tree command. This startup page links to my most used websites. Refer to my [dotfiles](https://github.com/loej/dotfiles) for my implementation. For the live version visit: joelcs.com/Jarvis
+ Jarvis is a simple startup page that mimics the tree command. This startup page links to my most used websites. Refer to my [dotfiles](https://github.com/loej/dotfiles) for my implementation. For the live version visit: https://joelcs.com/Jarvis/
 
 ## Preview  
 
