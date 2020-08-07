@@ -7,8 +7,8 @@
 
 <div align="center">
   <a>
-    <img src="src/images/search.gif" width="600">
-    <img src="src/images/palette.png" width="600">
+    <img src="docs/images/search.gif" width="600">
+    <img src="docs/images/palette.png" width="600">
   </a>
 </div>
 
