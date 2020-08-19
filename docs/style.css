@@ -6,6 +6,15 @@
   src: url(fonts/JetBrainsMono-Medium.ttf);
 }
 
+.all{
+  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -400px;
+  margin-left: -150px;
+}
+
 /* Sets the main body style.*/
 body {
   background-color: black;
@@ -13,16 +22,10 @@ body {
   font-family: "mainfont";
 }
 
-/* Class set to add padding to the main div 'all'. */
-.all {
-  padding-left: 550px;
-  padding-top: 50px;
-}
-
 /* Sets the padding for the tree structure. */
 .treeText {
   padding-left: 20000px;
-}
+} 
 
 /* Defines the color, font size, and list style. */
 p.treeRoot,
@@ -67,35 +70,35 @@ ul.treeRoot li:last-child:before {
 
 /* The methods below decorate the links to remove all other decorations. */
 a:hover {
-  color: #ff7844;
+  color: #8FAFEB;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* The methods below decorate the links to remove all other decorations. */
 a:active {
-  color: #ff7844;
+  color: #8FAFEB;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* The methods below decorate the links to remove all other decorations. */
 a:visited {
-  color: #ff7844;
+  color: #8FAFEB;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* The methods below decorate the links to remove all other decorations. */
 a:link {
-  color: #ff7844;
+  color: #8FAFEB;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* .type file customization. */
 .type {
-  color: #ff7844;
+  color: #8FAFEB;
   padding-left: 0px;
   font-size: 20px;
   /* Makes sure that the animation stays in one specific line. */
@@ -126,13 +129,13 @@ a:link {
     width: 0;
   }
   to {
-    width: 320px;
+    width: 250px;
   }
 }
 
 /* This is the second decoration for the google prompt. */
 .secondType{
-  color: #ff7844;
+  color: #8FAFEB;
   padding-left: 0px;
   font-size: 20px;
   /* Makes sure that the animation stays in one specific line. */
@@ -147,7 +150,7 @@ a:link {
 
 /* This decorates the input search. */
 .gettingSearch{
-  color:#ff7844;
+  color:#8FAFEB;
   font-size: 20px;
 }
 
